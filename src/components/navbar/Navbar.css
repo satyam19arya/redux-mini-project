@@ -17,8 +17,28 @@ nav{
     background-color:  #252429;
 }
 
+.right-layout{
+    position: relative;
+}
+
 .banner{
     font-weight: bolder;
     background-color:  #252429;
     color: #e8e5ea;
+    font-size: 1.5rem;
+}
+
+.count{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: -10px;
+    right: -6px;
+    background-color:  #8800c7;
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 20px;
 }

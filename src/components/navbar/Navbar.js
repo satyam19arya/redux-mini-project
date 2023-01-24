@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="right-layout">
           <div className="cart-layout">
             <AiOutlineShoppingCart className='banner'/>
-            <h3 className="banner">{count}</h3>
+            <h3 className="count">{count}</h3>
           </div>
         </div>
     </nav>
