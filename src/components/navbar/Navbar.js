@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className="banner">
-          My Shopify
+          My Collections
         </div>
 
         <div className="right-layout">
