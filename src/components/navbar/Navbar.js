@@ -17,11 +17,13 @@ const Navbar = () => {
         <div className="right-layout">
           <div className="cart-layout">
             <AiOutlineShoppingCart className='banner'/>
-            <h3 className="count">{count}</h3>
+            { 
+              cart.length > 0  && <div className="count">{count}</div>
+            }
           </div>
         </div>
     </nav>
   )
 }
 
-export default Navbar; 
+export default Navbar;
